@@ -166,9 +166,11 @@ void updateTransition() {
 
 void updateResults() {
   if (arduboy.justPressed(A_BUTTON) || arduboy.justPressed(B_BUTTON)) {
+    /*
     if (mode == MODE_PBTA || mode == MODE_IRONSWORN) {
       modifier = 0;
     }
+    */
 
     screen = SCREEN_INPUT;
   }
